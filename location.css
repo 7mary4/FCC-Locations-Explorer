@@ -1,0 +1,57 @@
+/*
+    Styles for the FCC Location hack
+*/  
+
+/* add gradient background to differentiate between body and page*/
+html {
+    background: #fcfff4; /* old browsers */
+    background: -moz-linear-gradient(left, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fcfff4), color-stop(40%,#dfe5d7), color-stop(100%,#b3bead)); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=1 ); /* ie */
+} 
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    background: #FCFFF4;
+} 
+
+/*make new html5 elements display:block*/
+header,
+article,
+section,
+footer,
+aside {    display: block }
+
+header[role="banner"] {    padding: 10px }
+ header[role="banner"] h1 {
+     margin: 0;
+     float: left;
+ }
+
+#cityChooser {    float: right }
+
+.tests dt,
+.tests dd {
+    float: left;
+    width: 150px;
+    margin: 5px;
+}
+
+.tests dt {
+    font-weight: bold;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+    clear: left;
+}
+
+.tests p {    clear: left }
+
+section section,
+aside table {    margin: 10px }
+
+footer {
+    text-align: center;
+    padding: 5px;
+}
+
