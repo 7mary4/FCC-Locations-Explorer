@@ -1,0 +1,8 @@
+This project started during the FCC Open Developer Day event. It was intended to explore HTML5, Yahoo's YQL, and the new data APIs from the FCC.
+Feel free to fork this initial set of code and play with YQL to add many new features. 
+
+version .1 November 11, 2010
+Initial commit to github.
+files: index.php
+	   location.css
+	
